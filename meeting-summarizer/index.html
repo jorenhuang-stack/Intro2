@@ -33,7 +33,7 @@
   <footer>不在瀏覽器保存逐字稿；API Key 僅存於 Google Apps Script。</footer>
 </main>
 <script>
-  const API_URL = '__GAS_WEB_APP_URL__';
+  const API_URL = 'https://script.google.com/macros/s/AKfycbzH8JZpgrh-Hy-6M6PZcc9lmQSa-zEaocRFg8iLwYI2f8z1gqDmvR0VWH1oekw6bk06DQ/exec';
   const input=document.querySelector('#transcript'),result=document.querySelector('#result'),button=document.querySelector('#summarize'),copy=document.querySelector('#copy'),count=document.querySelector('#count');
   input.addEventListener('input',()=>count.textContent=input.value.length.toLocaleString());
   button.addEventListener('click',async()=>{
