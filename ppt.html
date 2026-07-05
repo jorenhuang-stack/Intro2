@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>IA 眾智聯｜事業推動簡報</title>
+  <meta name="description" content="IA 眾智聯事業推動簡報線上逐頁閱讀與下載。">
+  <style>
+    :root{--navy:#06295e;--blue:#0a3470;--accent:#75a7f5;--paper:#f5f8fd;--muted:#b9c9df}
+    *{box-sizing:border-box}html,body{height:100%;margin:0}body{overflow:hidden;background:var(--navy);color:white;font-family:Inter,"Noto Sans TC",system-ui,sans-serif}
+    button,select,a{font:inherit}.deck{height:100%;position:relative}.slide{display:none;height:100%;padding:74px 24px 94px;align-items:center;justify-content:center}.slide.active{display:flex}.slide img{display:block;max-width:min(100%,1600px);max-height:calc(100vh - 190px);width:auto;height:auto;object-fit:contain;background:white;border-radius:12px;box-shadow:0 24px 70px rgba(1,20,54,.38)}
+    .topbar{position:fixed;z-index:5;top:0;left:0;right:0;height:64px;padding:0 24px;display:flex;align-items:center;justify-content:space-between;gap:18px;background:rgba(6,41,94,.94);backdrop-filter:blur(14px);border-bottom:1px solid rgba(255,255,255,.14)}.brand{display:flex;align-items:center;gap:11px;color:white;text-decoration:none;font-weight:800;white-space:nowrap}.brand-mark{width:34px;height:34px;border-radius:50%;display:grid;place-items:center;background:white;color:var(--navy);font-size:13px}.actions{display:flex;align-items:center;gap:9px}.action{color:white;text-decoration:none;border:1px solid rgba(255,255,255,.25);border-radius:999px;padding:9px 14px;background:rgba(255,255,255,.07);cursor:pointer}.action:hover{background:rgba(255,255,255,.14)}select.action{max-width:210px}
+    .nav-button{position:fixed;z-index:4;top:50%;transform:translateY(-50%);width:52px;height:72px;border:1px solid rgba(255,255,255,.25);border-radius:14px;background:rgba(6,41,94,.8);color:white;font-size:38px;cursor:pointer}.nav-button:hover{background:var(--blue)}#prev{left:18px}#next{right:18px}
+    .footer{position:fixed;z-index:5;left:0;right:0;bottom:0;padding:12px 24px 16px;background:linear-gradient(0deg,rgba(6,41,94,.98),rgba(6,41,94,.86));display:grid;grid-template-columns:auto 1fr auto;align-items:center;gap:18px}.page{font-variant-numeric:tabular-nums;font-weight:800}.title{color:var(--muted);font-size:14px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.track{position:absolute;left:0;right:0;bottom:0;height:4px;background:rgba(255,255,255,.16)}.bar{height:100%;width:0;background:var(--accent);transition:width .25s ease}
+    @media(max-width:760px){.topbar{height:auto;min-height:64px;padding:10px 14px;align-items:flex-start}.brand span:last-child{display:none}.actions{flex-wrap:wrap;justify-content:flex-end}.action{padding:8px 10px;font-size:12px}select.action{max-width:142px}.slide{padding:96px 10px 90px}.slide img{max-height:calc(100vh - 196px);border-radius:7px}.nav-button{width:40px;height:58px;font-size:30px;background:rgba(6,41,94,.7)}#prev{left:6px}#next{right:6px}.footer{padding:10px 14px 14px;grid-template-columns:auto 1fr}.title{grid-column:1/-1;grid-row:1}.page{grid-row:2}.hint{grid-row:2;text-align:right}.track{grid-column:1/-1}.slide img{max-width:calc(100% - 42px)}}
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="index.html"><span class="brand-mark">IA</span><span>眾智聯事業推動簡報</span></a>
+    <div class="actions">
+      <select id="slideSelect" class="action" aria-label="選擇投影片"></select>
+      <a id="downloadCurrent" class="action" href="slides/slide-1.png" download>下載此頁 PNG</a>
+      <a class="action" href="IA眾智聯_事業推動簡報_V2.pptx" download>下載完整 PPTX</a>
+    </div>
+  </header>
+
+  <main class="deck" aria-live="polite">
+    <section class="slide active" data-title="在大缺工與 AI 焦慮時代"><img src="slides/slide-1.png" alt="第 1 頁：在大缺工與 AI 焦慮時代，運用共享經理人打造企業神隊友"></section>
+    <section class="slide" data-title="管理失靈與團隊內耗"><img src="slides/slide-2.png" alt="第 2 頁：管理失靈與團隊內耗藏在水面之下"></section>
+    <section class="slide" data-title="企業的三個找不到"><img src="slides/slide-3.png" alt="第 3 頁：企業同時卡在三個找不到"></section>
+    <section class="slide" data-title="共享機制的雙邊機會"><img src="slides/slide-4.png" alt="第 4 頁：共享機制把兩端困境變成同一個機會"></section>
+    <section class="slide" data-title="眾智聯三層架構"><img src="slides/slide-5.png" alt="第 5 頁：眾智聯三層架構"></section>
+    <section class="slide" data-title="SMP 外部經理人團隊"><img src="slides/slide-6.png" alt="第 6 頁：SMP 讓企業按需求組建外部經理人團隊"></section>
+    <section class="slide" data-title="三種合作深度"><img src="slides/slide-7.png" alt="第 7 頁：合作深度可隨企業需求逐步加深"></section>
+    <section class="slide" data-title="AI 共創飛輪"><img src="slides/slide-8.png" alt="第 8 頁：AI 共創飛輪"></section>
+    <section class="slide" data-title="跨領域業師群"><img src="slides/slide-9.png" alt="第 9 頁：十數位業師群覆蓋企業成長關鍵戰場"></section>
+    <section class="slide" data-title="創辦團隊"><img src="slides/slide-10.png" alt="第 10 頁：Joren Huang 黃雅慧與創辦團隊"></section>
+    <section class="slide" data-title="三方平台價值"><img src="slides/slide-11.png" alt="第 11 頁：平台價值在三方同時增長"></section>
+    <section class="slide" data-title="企業長期成長系統"><img src="slides/slide-12.png" alt="第 12 頁：眾智聯組成企業的長期成長系統"></section>
+  </main>
+
+  <button id="prev" class="nav-button" aria-label="上一頁">‹</button>
+  <button id="next" class="nav-button" aria-label="下一頁">›</button>
+  <footer class="footer"><span class="page"><span id="current">01</span> / <span id="total">12</span></span><span id="slideTitle" class="title"></span><span class="hint">← → 切換</span><div class="track"><div id="bar" class="bar"></div></div></footer>
+
+  <script>
+    const slides=Array.from(document.querySelectorAll('.slide'));
+    const current=document.getElementById('current');
+    const total=document.getElementById('total');
+    const bar=document.getElementById('bar');
+    const title=document.getElementById('slideTitle');
+    const select=document.getElementById('slideSelect');
+    const download=document.getElementById('downloadCurrent');
+    let index=0;
+    total.textContent=String(slides.length).padStart(2,'0');
+    slides.forEach((slide,i)=>select.insertAdjacentHTML('beforeend',`<option value="${i}">${String(i+1).padStart(2,'0')}｜${slide.dataset.title}</option>`));
+    function show(nextIndex){
+      index=(nextIndex+slides.length)%slides.length;
+      slides.forEach((slide,i)=>slide.classList.toggle('active',i===index));
+      current.textContent=String(index+1).padStart(2,'0');
+      title.textContent=slides[index].dataset.title;
+      bar.style.width=`${((index+1)/slides.length)*100}%`;
+      select.value=String(index);
+      download.href=`slides/slide-${index+1}.png`;
+      download.download=`IA眾智聯_事業推動簡報_第${index+1}頁.png`;
+      history.replaceState(null,'',`#slide-${index+1}`);
+    }
+    document.getElementById('prev').addEventListener('click',()=>show(index-1));
+    document.getElementById('next').addEventListener('click',()=>show(index+1));
+    select.addEventListener('change',()=>show(Number(select.value)));
+    window.addEventListener('keydown',event=>{
+      if(event.key==='ArrowRight'||event.key==='PageDown'||event.key===' '){event.preventDefault();show(index+1)}
+      if(event.key==='ArrowLeft'||event.key==='PageUp'){event.preventDefault();show(index-1)}
+      if(event.key==='Home')show(0);if(event.key==='End')show(slides.length-1);
+    });
+    let touchStartX=0;
+    window.addEventListener('touchstart',event=>{touchStartX=event.changedTouches[0].screenX},{passive:true});
+    window.addEventListener('touchend',event=>{const delta=event.changedTouches[0].screenX-touchStartX;if(Math.abs(delta)>50)show(index+(delta<0?1:-1))},{passive:true});
+    const requested=Number((location.hash.match(/slide-(\d+)/)||[])[1]);
+    show(Number.isFinite(requested)&&requested>0?requested-1:0);
+  </script>
+</body>
+</html>
